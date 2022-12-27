@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .login-page {
+            width: 600px;
+            margin:  auto ;
+            padding-top: 250px;
+        }
+
+        .login-form {
+            border: 1px solid black;
+             box-shadow: 1px 2px #888888;
+             text-align: center;
+        }
+        input{
+            margin-bottom: 10px;
+            width: 300px;
+            height: 50px;
+            padding-left: 20px;
+        }
+        #btn_login{
+            height: auto;
+            width: 100px;
+            height: 50px;
+            background-color: orange;
+            border: none;
+            border-radius: 10px;
+            margin-right: 20px;
+            box-shadow: 1px 2px ;
+        }
+
+        br {
+            clear: left;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="login-page">
+        <form class="login-form">
+            <h2>Login</h2>
+          <p> <input type="text" placeholder="username" /></p> 
+          <p> <input type="password" placeholder="password" /></p>
+               
+           <p><button id="btn_login">login</button>
+            <a href="#">Or create an account</a></p> 
+        </form>
+    </div>
+</body>
+
+</html>
